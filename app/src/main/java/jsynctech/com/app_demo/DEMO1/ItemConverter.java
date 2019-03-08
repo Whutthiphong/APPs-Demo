@@ -5,24 +5,27 @@ import android.graphics.drawable.Drawable;
 import java.util.ArrayList;
 import java.util.List;
 
-import jsynctech.com.app_demo.DEMO1.ModelItem.NextModel;
+import jsynctech.com.app_demo.DEMO1.ModelItem.ViewDetailModel;
 import jsynctech.com.app_demo.DEMO1.ModelItem.TitleModel;
 
 public class ItemConverter {
-    public static TitleModel createTitleModel(String title){
+    public static TitleModel createTitleModel(String title) {
         TitleModel titleModel = new TitleModel();
         titleModel.setTitle(title);
         return titleModel;
-
     }
-    public static List<NextModel> createNextModel(Drawable icon , List<NextModel> list){
-        List<NextModel> listItem =new ArrayList<>();
-        for(NextModel item : list) {
-            NextModel nextModel = new NextModel();
-            nextModel.setIcons(icon);
-            nextModel.setNextTitle(item.getNextTitle());
-            nextModel.setActivity(item.getActivity());
-            listItem.add(nextModel);
+
+    public static List<ViewDetailModel> createNextModel(Drawable icon, List<ViewDetailModel> list) {
+        List<ViewDetailModel> listItem = new ArrayList<>();
+        for (ViewDetailModel item : list) {
+            ViewDetailModel viewDetailModel = new ViewDetailModel();
+            if (item.getIcons() == null)
+                viewDetailModel.setIcons(icon);
+            else
+                viewDetailModel.setIcons(item.getIcons());
+            viewDetailModel.setNextTitle(item.getNextTitle());
+            viewDetailModel.setActivity(item.getActivity());
+            listItem.add(viewDetailModel);
         }
         return listItem;
 

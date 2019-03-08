@@ -1,11 +1,11 @@
-package jsynctech.com.app_demo.DEMO1.ViewNextActivity;
+package jsynctech.com.app_demo.DEMO1.DemoDetailActivity;
 
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 import jsynctech.com.app_demo.R;
 
-public class TwoActivity extends AppCompatActivity {
+public class NotifiActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

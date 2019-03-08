@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/menu_item_addnew"
+            android:icon="@drawable/ic_add_new"
+            android:title="Add New" />
+        <item
+            android:id="@+id/menu_item_edit"
+            android:icon="@drawable/ic_edit"
+            android:title="Edit Selected" />
+
+
+    </group>
+    <group android:id="@+id/group_delete">
+        <item
+            android:id="@+id/menu_item_delete_selected"
+            android:icon="@drawable/ic_clear_selected"
+            android:title="Delete Selected" />
+        <item
+            android:id="@+id/menu_item_deleteall"
+            android:icon="@drawable/ic_clear_all"
+            android:title="Delete All" />
+    </group>
+
+</menu>

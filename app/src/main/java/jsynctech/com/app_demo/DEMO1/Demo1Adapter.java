@@ -1,7 +1,7 @@
 package jsynctech.com.app_demo.DEMO1;
 
-import android.support.annotation.NonNull;
-import android.support.v7.widget.RecyclerView;
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,7 +12,7 @@ import java.util.List;
 import jsynctech.com.app_demo.DEMO1.Demo1ViewHolder.NextActivityViewHolder;
 import jsynctech.com.app_demo.DEMO1.Demo1ViewHolder.TitleViewHolder;
 import jsynctech.com.app_demo.DEMO1.Interface.InterfaceNext;
-import jsynctech.com.app_demo.DEMO1.ModelItem.NextModel;
+import jsynctech.com.app_demo.DEMO1.ModelItem.ViewDetailModel;
 import jsynctech.com.app_demo.DEMO1.ModelItem.TitleModel;
 import jsynctech.com.app_demo.R;
 
@@ -42,7 +42,7 @@ public class Demo1Adapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
             view = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.demo1_title_item, viewGroup, false);
             return new TitleViewHolder(view);
         } else if (viewType == ItemType.NEXT_ACTIVITY_TYPE) {
-            view = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.demo1_next_acti_item, viewGroup, false);
+            view = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.demo1_acti_detail_item, viewGroup, false);
             return new NextActivityViewHolder(view);
         }
 //        else if (viewType == ItemType.ITEM_TYPE) {
@@ -59,17 +59,17 @@ public class Demo1Adapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
         if(viewHolder instanceof TitleViewHolder){
             setTitle((TitleViewHolder) viewHolder,(TitleModel) baseItem);
         }else if(viewHolder instanceof NextActivityViewHolder ){
-            setNextActivity((NextActivityViewHolder)viewHolder, (NextModel) baseItem);
+            setNextActivity((NextActivityViewHolder)viewHolder, (ViewDetailModel) baseItem);
         }
 
     }
     private void  setTitle(TitleViewHolder holder ,TitleModel title){
         holder.tvTitle.setText(title.getTitle());
     }
-    private void  setNextActivity(final NextActivityViewHolder holder , NextModel nextModel){
+    private void  setNextActivity(final NextActivityViewHolder holder , ViewDetailModel viewDetailModel){
 
-        holder.tvNextTitle.setText(nextModel.getNextTitle());
-        holder.imageView.setImageDrawable(nextModel.getIcons());
+        holder.tvNextTitle.setText(viewDetailModel.getNextTitle());
+        holder.imageView.setImageDrawable(viewDetailModel.getIcons());
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

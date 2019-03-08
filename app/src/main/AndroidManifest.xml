@@ -9,16 +9,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".DEMO1.ViewNextActivity.TwoActivity"></activity>
-        <activity android:name=".DEMO1.ViewNextActivity.OneActivity" />
-        <activity android:name=".MainActivity" />
-        <activity android:name=".DEMO1.MainDemo1Activity">
+        <activity android:name=".DEMO1.DemoDetailActivity.BottomAppBar.BottomAppBarsActivity"
+            android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".DEMO1.DemoDetailActivity.NotifiActivity" />
+        <activity android:name=".DEMO1.DemoDetailActivity.FormActivity"
+            android:theme="@style/ThemeDemo">
+
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".DEMO1.MainDemo1Activity"></activity>
     </application>
 
 </manifest>

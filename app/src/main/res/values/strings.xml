@@ -4,4 +4,11 @@
     <string name="set2">DEMO2</string>
     <string name="set3">DEMO3</string>
     <string name="set4">DEMO4</string>
+    <string name="button_label_enabled">ButtonEnabled</string>
+    <string name="button_label_disable">ButtonDisabled</string>
+    <string name="UnelevatedButton">UnelevatedButton</string>
+    <string name="Button">Button</string>
+    <string name="OutlinedButton">OutlinedButton</string>
+    <string name="text_button_label_enabled">TextButton</string>
+    <string name="TextButtonIcon">TextButtonIcon</string>
 </resources>
