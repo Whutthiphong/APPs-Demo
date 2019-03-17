@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DEMO1.DemoDetailActivity.BottomAppBar.BottomAppBarsActivity">
+    tools:context=".DEMO1.DemoDetail.BottomAppBar.BottomAppBarsActivity">
     <!-- Other components and views -->
 
     <com.google.android.material.bottomappbar.BottomAppBar
@@ -30,6 +30,7 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/mRecyclerView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"></androidx.recyclerview.widget.RecyclerView>
+        android:layout_height="match_parent"
+        tools:listitem="@layout/recycler_view_item"></androidx.recyclerview.widget.RecyclerView>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

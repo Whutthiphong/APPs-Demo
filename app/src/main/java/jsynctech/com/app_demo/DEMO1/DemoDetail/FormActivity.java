@@ -1,12 +1,9 @@
-package jsynctech.com.app_demo.DEMO1.DemoDetailActivity;
+package jsynctech.com.app_demo.DEMO1.DemoDetail;
 
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
-import android.view.View;
-
-import com.google.android.material.button.MaterialButton;
 
 import jsynctech.com.app_demo.R;
 

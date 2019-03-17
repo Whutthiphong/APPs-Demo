@@ -36,17 +36,22 @@ public class MainDemo1Activity extends AppCompatActivity {
             //class อะไรก็ได้ที่ extends AppCompatActivity
             //ที่ get class -> Class.forName("") เพราะว่าจะส่ง path class มาจาก service
             item.setIcons(getResources().getDrawable(R.drawable.ic_event_note_black_24dp));
-            item.setActivity((Class<? extends AppCompatActivity>) Class.forName("jsynctech.com.app_demo.DEMO1.DemoDetailActivity.FormActivity"));
+            item.setActivity((Class<? extends AppCompatActivity>) Class.forName("jsynctech.com.app_demo.DEMO1.DemoDetail.FormActivity"));
             viewDetailModelList.add(item);
             item = new ViewDetailModel();
             item.setNextTitle("Buttons");
             item.setIcons(getResources().getDrawable(R.drawable.ic_dns_black_24dp));
-            item.setActivity((Class<? extends AppCompatActivity>) Class.forName("jsynctech.com.app_demo.DEMO1.DemoDetailActivity.BottomAppBar.BottomAppBarsActivity"));
+            item.setActivity((Class<? extends AppCompatActivity>) Class.forName("jsynctech.com.app_demo.DEMO1.DemoDetail.BottomAppBar.BottomAppBarsActivity"));
             viewDetailModelList.add(item);
             item = new ViewDetailModel();
             item.setNextTitle("Notification");
             item.setIcons(getResources().getDrawable(R.drawable.ic_notifications_active_black_24dp));
-            item.setActivity((Class<? extends AppCompatActivity>) Class.forName("jsynctech.com.app_demo.DEMO1.DemoDetailActivity.NotifiActivity"));
+            item.setActivity((Class<? extends AppCompatActivity>) Class.forName("jsynctech.com.app_demo.DEMO1.DemoDetail.NotifiActivity"));
+            viewDetailModelList.add(item);
+            item = new ViewDetailModel();
+            item.setNextTitle("Notification");
+            item.setIcons(getResources().getDrawable(R.drawable.ic_notifications_active_black_24dp));
+            item.setActivity((Class<? extends AppCompatActivity>) Class.forName("jsynctech.com.app_demo.DEMO1.DemoDetail.StoreDetailActivity"));
             viewDetailModelList.add(item);
         } catch (ClassNotFoundException e) {
             e.printStackTrace();

@@ -1,4 +1,4 @@
-package jsynctech.com.app_demo.DEMO1.DemoDetailActivity.BottomAppBar;
+package jsynctech.com.app_demo.DEMO1.DemoDetail.BottomAppBar;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;

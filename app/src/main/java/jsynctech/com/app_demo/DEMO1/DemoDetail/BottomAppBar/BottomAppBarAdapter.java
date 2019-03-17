@@ -1,4 +1,4 @@
-package jsynctech.com.app_demo.DEMO1.DemoDetailActivity.BottomAppBar;
+package jsynctech.com.app_demo.DEMO1.DemoDetail.BottomAppBar;
 
 import android.view.LayoutInflater;
 import android.view.View;

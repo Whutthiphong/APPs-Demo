@@ -9,21 +9,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".DEMO1.DemoDetailActivity.BottomAppBar.BottomAppBarsActivity"
-            android:theme="@style/AppTheme">
+        <activity android:name=".DEMO1.DemoDetail.FoodOrder.CreateOrderActivity"></activity>
+        <activity
+            android:name=".DEMO1.DemoDetail.FoodOrder.StoreDetailActivity"
+            android:theme="@style/GrabStyle">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".DEMO1.DemoDetailActivity.NotifiActivity" />
-        <activity android:name=".DEMO1.DemoDetailActivity.FormActivity"
-            android:theme="@style/ThemeDemo">
-
-        </activity>
+        <activity
+            android:name=".DEMO1.DemoDetail.BottomAppBar.BottomAppBarsActivity"
+            android:theme="@style/AppTheme"></activity>
+        <activity android:name=".DEMO1.DemoDetail.NotifiActivity" />
+        <activity
+            android:name=".DEMO1.DemoDetail.FormActivity"
+            android:theme="@style/ThemeDemo" />
         <activity android:name=".MainActivity" />
-        <activity android:name=".DEMO1.MainDemo1Activity"></activity>
+        <activity android:name=".DEMO1.MainDemo1Activity" />
     </application>
 
 </manifest>

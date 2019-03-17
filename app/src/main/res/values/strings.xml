@@ -11,4 +11,6 @@
     <string name="OutlinedButton">OutlinedButton</string>
     <string name="text_button_label_enabled">TextButton</string>
     <string name="TextButtonIcon">TextButtonIcon</string>
+    <string name="txt_amazon">Amozan</string>
+    <string name="CreateOrder">Create Order</string>
 </resources>

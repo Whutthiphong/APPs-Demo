@@ -1,4 +1,4 @@
-package jsynctech.com.app_demo.DEMO1.DemoDetailActivity;
+package jsynctech.com.app_demo.DEMO1.DemoDetail;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;

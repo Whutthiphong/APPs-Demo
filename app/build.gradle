@@ -28,4 +28,8 @@ dependencies {
     implementation 'androidx.recyclerview:recyclerview:1.0.0'
     implementation 'com.google.android.material:material:1.0.0'
     implementation 'com.android.support:design:28.0.0'
+    implementation 'com.cepheuen.elegant-number-button:lib:1.0.2'
+//      credit
+//    demo amazon food order
+//    https://inthecheesefactory.com/blog/android-design-support-library-codelab/th?fb_comment_id=849931001763584_850926834997334
 }
