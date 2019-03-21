@@ -6,8 +6,6 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
     </style>
 
     <style name="ThemeDemo" parent="Theme.MaterialComponents.Light">
@@ -16,8 +14,10 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
     </style>
-    <style name="GrabStyle" parent="Theme.MaterialComponents.Light.Bridge">
+    <style name="GrabStyle" parent="Theme.MaterialComponents.Light">
         <item name="colorPrimary">@color/colorGrabPrimary</item>
         <item name="colorPrimaryDark">@color/colorGrabPrimaryDark</item>
         <item name="colorAccent">@color/colorGrabAccent</item>

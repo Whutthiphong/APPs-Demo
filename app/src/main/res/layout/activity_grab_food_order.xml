@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DEMO1.DemoDetail.FoodOrder.StoreDetailActivity">
+    tools:context=".DEMO1.FoodOrder.StoreDetailActivity">
 
     <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:id="@+id/rootLayout"
@@ -162,9 +162,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
                     android:layout_marginBottom="8dp"
-                    android:gravity="center_horizontal"
-
-                    >
+                    android:gravity="center_horizontal">
 
                     <com.google.android.material.button.MaterialButton
                         android:id="@+id/btnCreateOrder"
@@ -179,6 +177,7 @@
                         android:textAllCaps="false"
                         app:icon="@drawable/ic_book_black_24dp"
                         app:rippleColor="@color/colorGrabAccent"
+                        android:textColor="@color/colorGrabPrimary"
                         app:strokeColor="@color/colorGrabPrimary" />
 
                 </LinearLayout>

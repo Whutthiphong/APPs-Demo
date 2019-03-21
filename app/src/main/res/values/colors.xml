@@ -7,4 +7,7 @@
     <color name="colorGrabPrimaryDark">#009D3B</color>
     <color name="colorGrabAccent">#5BE48F</color>
     <color name="colorWrite">#ffffff</color>
+    <color name="colorDesc">#bbbbbb</color>
+    <color name="colorGray">#eeeeee</color>
+    <color name="colorName">#777777</color>
 </resources>

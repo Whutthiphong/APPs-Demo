@@ -22,6 +22,7 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'androidx.appcompat:appcompat:1.0.0'
     implementation 'androidx.constraintlayout:constraintlayout:1.1.2'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0-beta01'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test:runner:1.1.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.0'
@@ -29,6 +30,7 @@ dependencies {
     implementation 'com.google.android.material:material:1.0.0'
     implementation 'com.android.support:design:28.0.0'
     implementation 'com.cepheuen.elegant-number-button:lib:1.0.2'
+    implementation 'com.android.support:preference-v7:28.0.0'//PreferenceFragmentCompat
 //      credit
 //    demo amazon food order
 //    https://inthecheesefactory.com/blog/android-design-support-library-codelab/th?fb_comment_id=849931001763584_850926834997334
